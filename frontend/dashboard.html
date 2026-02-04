@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <h2>📈 Attendance Management System</h2>
+    <div class="nav-links">
+      <a href="index.html">Mark Attendance</a>
+      <a href="view.html">View Attendance</a>
+      <a href="dashboard.html">Dashboard</a>
+    </div>
+  </div>
+
+  <!-- MAIN CONTAINER -->
+  <div class="container">
+    <h3>Dashboard</h3>
+
+    <!-- DASHBOARD CARDS -->
+    <div class="dashboard-cards">
+
+      <div class="card">
+        <h4>Total Students</h4>
+        <p id="totalStudents">0</p>
+      </div>
+
+      <div class="card present-card">
+        <h4>Present</h4>
+        <p id="presentCount">0</p>
+      </div>
+
+      <div class="card absent-card">
+        <h4>Absent</h4>
+        <p id="absentCount">0</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>
